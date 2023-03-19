@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 3%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.header{
+    flex: left;
+    margin: auto;
+    width: 100%;
+    height:15vh;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:100px;
+    margin-top:10px;
+    cursor:pointer;
+
+}
+#btn1{
+    text-transform: uppercase;
+    background: linear-gradient(to bottom,#378de5 3%,#48789b 100%);
+    border-radius: 30px;
+    border: 1px solid #5e97d1;
+    cursor:pointer;
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 20px;
+    margin:10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94, 28, 68, .15);
+    text-shadow: 0px 1px 0px #528ecc;
+}
+#btn2{
+    text-transform: uppercase;
+    background: linear-gradient(to bottom,#378de5 3%,#48789b 100%);
+    border-radius: 30px;
+    border: 1px solid #5e97d1;
+    cursor:pointer;
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 20px;
+    margin:10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94, 28, 68, .15);
+    text-shadow: 0px 1px 0px #528ecc;
+}
+.btn:hover{
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, .15);
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+.content{
+    position: relative;
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .text{
+    position: relative;
+    max-width: 600px;
+}
+.content .text h1 span{
+    font-size: 50px;
+}
+.content .text p{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 40px;
+    color:black;
+    font-size: 20px;
+}
+#btn3{
+    background: linear-gradient(to bottom,#378de5 2%,#48789b 100%);
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: .5s;
+    border:none;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 20px;
+    box-shadow: 1px 4px 12px rgba(197, 95, 156, 0.15);
+}
+.btn3:hover{
+    background-color: red;
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+.sofa{
+    display: flex;
+    width: 600px;
+    margin-top: 80px;
+    padding-left: 480px;
+    position: absolute;
+    justify-content: right;
+    
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
